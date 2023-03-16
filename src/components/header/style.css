@@ -1,0 +1,13 @@
+.Header {
+    background-color: #F1F3FF;
+}
+
+.navbar {
+    display: flex;
+}
+
+a.nav-link {
+    margin-left: 32px;
+    font-size: 16px;
+    color: black;
+}

@@ -1,0 +1,102 @@
+#hero-section {
+    background-color: #F1F3FF;
+    padding-top: 150px;
+    position: relative;
+}
+
+.hero-content {
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.5;
+}
+
+.hero-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.hero-content .btn {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 32px;
+    background: #5CB85F;
+    border-color: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px;
+}
+
+.hero-content .btn:hover {
+    background-color: #208c1f;
+    border-color: #208c1f;
+}
+
+.hero-thumbnail {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    width: 50%;
+}
+
+.hero-thumbnail img {
+    width: 100%;
+}
+
+@media (max-width:992px) {
+    #hero-section {
+        padding-top: 60px;
+    }
+    
+    .hero-content {
+        padding-bottom: 34px;
+    }
+
+    .hero-content h1 {
+        font-size: 22px;
+    }
+    
+    .hero-content p {
+        font-size: 12px;
+    }
+    
+    .hero-content .btn {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width:767px) {
+    #hero-section {
+        padding-top: 40px;
+    }
+
+    .hero-content {
+        padding-bottom: 10px;
+    }
+
+    .hero-thumbnail {
+        position: relative;
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .hero-content .btn {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+}
