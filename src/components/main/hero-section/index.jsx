@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './style.scss'
 import { Button, Col, Container } from 'reactstrap'
 import HeroImage from '../../../assets/images/img_car.png'
 
