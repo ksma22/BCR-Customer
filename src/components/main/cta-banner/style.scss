@@ -1,0 +1,54 @@
+#cta-banner {
+    padding-top: 150px;
+
+    .banner-content {
+        background-color: #0D28A6;
+        border-radius: 16px;
+        padding: 80px;
+        color: #FFFFFF;
+
+        h1 {
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 1.5;
+        }
+        
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 32px;
+        }
+
+        .btn {
+            font-weight: 600;
+            font-size: 16px;
+            margin-top: 60px;
+            background: #5CB85F;
+            border-color: #5CB85F;
+            border-radius: 2px;
+            padding: 8px 12px;
+    
+            &:hover {
+                background-color: #208c1f;
+                border-color: #208c1f;
+            }
+        }
+    }
+}
+
+@media (max-width : 992px) {
+    #cta-banner {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width : 767px) {
+    #cta-banner {
+        .banner-content {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+}
